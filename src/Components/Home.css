@@ -1,0 +1,134 @@
+.container {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+  }
+  .row-hm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .part1-hm {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .part1-hm img {
+    padding-top: 15px;
+  }
+  
+  .head1 {
+    color: #05a0e8;
+    font-size: 1.75rem;
+    /* margin-bottom: 0.5rem; */
+    text-align: left;
+    padding: 10px 0;
+  }
+  .line {
+    /* width: 100px; */
+    height: 2px;
+    /* bottom: 0; */
+    background: linear-gradient(to right, #05a0e8, #05529a, #000000);
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+  
+  .bk{
+    position: relative;
+  width: 100%;
+  height: 400px;
+  }
+  .bk img{
+    width: 100%;
+    height: 100%;
+  }
+  .bk a{
+    text-decoration: none !important;
+  }
+  .bn{
+    position: absolute;
+    top: 243px;
+    right: 0px;
+    z-index: 1;
+    border: 2px solid rgb(45, 169, 231);
+    border-radius: 29px;
+    padding: 12px;
+    font-size: 20px;
+    line-height: normal;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    width: 20%;
+  }
+  .quote{
+    position: absolute;
+    top: 110px;
+    /* left: 865px; */
+    /* width: 20%; */
+  }
+
+  .bk h5{
+    color: #022d54;
+    /* font-family: "Raleway", sans-seri; */
+  }
+  .bk h4{
+    color: #0b589e;
+  }
+  .ak{
+    display: flex;
+    justify-content: right;
+  }
+
+  @media (max-width: 980px){
+
+    .bn {
+      position: absolute;
+      top: 300px;
+      right: 15px;
+
+}
+.part1-hm {
+  flex: 0 0 100%;
+  max-width: 100%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row-hm {
+  display: inline-flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+.bn {
+  position: absolute;
+  top: 300px;
+  right: 15px;
+  width: 30%;
+  background: green;
+  color: #fff !important;
+
+}
+.quote {
+  top: 110px;
+
+}
+
+}
+
+@media (max-width: 980px){
+
+.quote {
+  padding: 10px;
+  background: white;
+  border-radius: 20px;
+}
+}

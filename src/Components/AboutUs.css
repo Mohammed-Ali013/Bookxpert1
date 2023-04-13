@@ -1,0 +1,202 @@
+.container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  height: 100% !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.part1-ab {
+  flex: 0 0 50%;
+  /* max-width: 50%; */
+  /* width: 50%; */
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.part1-ab img {
+  padding-top: 15px;
+}
+
+.head1 {
+  color: #05a0e8;
+  font-size: 1.75rem;
+  /* margin-bottom: 0.5rem; */
+  text-align: left;
+  padding: 10px 0;
+}
+.line {
+  /* width: 100px; */
+  height: 2px;
+  /* bottom: 0; */
+  background: linear-gradient(to right, #05a0e8, #05529a, #000000);
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.row1 {
+  background-image: url("/public/img3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.content-img {
+  margin-left: 0px !important;
+  padding: 74px;
+  background: #05529aeb !important;
+  border-radius: 23px;
+  color: #fff;
+  text-align: left;
+}
+
+.head2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #84d8ff;
+}
+
+.issues {
+  color: #fff;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.issue1 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row-st{
+  display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.row2 {
+  padding-top: 50px;
+  margin-top: -14px;
+  padding-bottom: 50px;
+}
+
+.row3 {
+  background: #004291;
+  overflow: hidden;
+  padding: 70px 0 60px;
+}
+
+.states {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.states1{
+  padding: 25px;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  text-align: center;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 2px 5px 16px #011b3a;
+}
+
+.span{
+  font-size: 34px;
+  display: block;
+  font-weight: 600;
+  color: #082744;
+}
+.para{
+  padding: 0;
+  margin: 0;
+  /* font-family: "Raleway", sans-serif; */
+  font-size: 14px;
+}
+
+.empty{
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+@media (max-width: 980px){
+
+  .row{
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .part1-ab{
+    width: 100%;
+
+  }
+  .part1-ab img {
+    height: 450px;
+  }
+  .states {
+    width: 45%;
+    margin: 10px;
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+.ptb{
+  padding-top: 20px;
+}
+
+}
+
+
+@media (max-width: 480px){
+
+
+  .part1-ab {
+    width: 90%;
+    margin: auto;
+}
+.row1{
+  padding: 20px;
+}
+.content-img {
+  padding: 15px;
+  
+}
+.issues{
+  display: block;
+}
+.issue1{
+  max-width: 100%;
+}
+.states {
+  width: 100%;
+  margin: 10px;
+  flex: 0 0 100%;
+  max-width: 95%;
+}
+.row2, .row3 {
+  margin: auto;
+  width: 95%;
+}
+ 
+
+
+
+}

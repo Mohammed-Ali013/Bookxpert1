@@ -1,0 +1,87 @@
+.container-login, .container-register {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    
+  }
+  .container-contact {
+    width: 99%;
+    padding-right: 10px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    min-height: 81vh;
+    
+  }
+  .row-cn .col-md-5{
+    margin: auto;
+    width: 50%;
+    /* margin-top: 2%; */
+ }
+
+
+.row-login, .row-register {
+    width: 100%;
+    min-height: 69vh;
+    /* margin-top: 73px; */
+}
+
+.form-control{
+    padding: 15px !important;
+}
+.btn-success{
+    padding: 10px;
+    width: 40%;
+    font-size: 22px;
+}
+.btn-div{
+    text-align: center;
+}
+.btn-div button{
+    margin-top: 10px !important;;
+}
+@media (max-width: 980px){
+
+    .row-login, .row-register{
+        width: 90%;
+        height: 75.5vh;
+        text-align: center;
+        display: flex;
+        margin: 20px auto;
+    
+    }
+    .row-login .col-md-4, .row-register .col-md-4{
+        margin: auto !important;
+        width: 80%;
+    }
+
+
+    .row-cn .col-md-5{
+        margin-top: 22%;
+
+     }
+
+}
+
+
+
+
+
+
+@media (max-width: 480px){
+    .row-login, .row-register{
+        height: 66vh;
+    }
+    .btn-success{
+        font-size: 18px;
+    }
+    .row-cn .col-md-5 {
+        margin: auto;
+        width: 90%;
+
+    }
+}
